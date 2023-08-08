@@ -12,5 +12,4 @@ class MoviesService
 
     override fun movies() = moviesApi.movies()
     override fun movieDetails(movieId: Int) = moviesApi.movieDetails(movieId)
-
 }

@@ -14,6 +14,5 @@ data class MovieDetailsEntity(
         val empty = MovieDetailsEntity(0, "", "", "", "", "", 0, "")
     }
 
-    fun toMovieDetails() =
-        MovieDetailsEntity(id, title, poster, summery, cast, director, year, trailer)
+    fun toMovieDetails() = MovieDetails(id, title, poster, summery, cast, director, year, trailer)
 }
